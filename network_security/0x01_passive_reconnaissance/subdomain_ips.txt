@@ -1,0 +1,26 @@
+v1.holbertonschool.com -> 54.86.136.129
+v3.holbertonschool.com -> 54.89.246.137
+lvl2-discourse-staging.holbertonschool.com -> 13.38.216.13
+staging-apply-forum.holbertonschool.com -> 13.38.122.220
+read.holbertonschool.com -> 35.180.6.147
+v2.holbertonschool.com -> 34.203.198.145
+fr.holbertonschool.com -> 15.161.34.42
+help.holbertonschool.com -> 75.2.70.75
+en.fr.holbertonschool.com -> 104.17.201.193
+apply.holbertonschool.com -> 15.188.218.54
+support.holbertonschool.com -> 216.198.54.6
+rails-assets.holbertonschool.com -> 13.226.175.86
+staging-rails-assets-apply.holbertonschool.com -> 18.66.195.24
+staging-apply.holbertonschool.com -> 35.181.42.84
+smile2021.holbertonschool.com -> 15.161.34.42
+fr.webflow.holbertonschool.com -> 104.17.201.193
+holbertonschool.com -> 75.2.70.75
+hippokampoi.holbertonschool.com -> 
+blog.holbertonschool.com -> 192.0.78.131
+assets.holbertonschool.com -> 13.226.175.69
+beta.holbertonschool.com -> hbtnweb-beta.us-east-1.elasticbeanstalk.com.
+yriry2.holbertonschool.com -> 52.47.143.83
+apply-staging.holbertonschool.com -> 
+rails-assets-apply-staging.holbertonschool.com -> 
+webflow.holbertonschool.com -> 15.160.106.203
+www.holbertonschool.com -> 15.161.34.42
