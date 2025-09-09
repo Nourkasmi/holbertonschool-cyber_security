@@ -1,1 +1,1 @@
-udp && udp.length == 0
+udp && udp.length == 0 && udp.dstport
