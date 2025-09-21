@@ -1,0 +1,2 @@
+- Target machine: http://web0x00.hbtn/login
+- Mapped `web0x00.hbtn` → `10.42.183.174` in `/etc/hosts`.
