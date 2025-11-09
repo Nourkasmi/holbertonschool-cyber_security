@@ -1,2 +1,2 @@
 #!/bin/bash
-john --wordlist=rockyou.txt --format=nt "$1" 2>/dev/null; john --show --format=nt "$1" | cut -d: -f2 > 5-password.txt
+{ john --wordlist=/usr/share/wordlists/rockyou.txt --format=nt "$1"; john --show --format=nt "$1" | cut -d: -f2 > 5-password.txt; }
