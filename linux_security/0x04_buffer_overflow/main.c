@@ -1,12 +1,12 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 #include <unistd.h>
 
 /**
  * main - uses strdup to create a new string, loops forever-ever
  *
- * Return: EXIT_FAILURE if malloc failed. Otherwise never returns.
+ * Return: EXIT_FAILURE if malloc failed. Other never returns
  */
 int main(void)
 {
