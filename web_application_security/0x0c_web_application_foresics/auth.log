@@ -1,0 +1,450 @@
+Mai 16 08:12:04 app-1 login[4659]: pam_unix(login:session): session opened for user Kayn by LOGIN(uid=0)
+Mai 16 08:12:09 app-1 sudo:     Kayn : TTY=tty1 ; PWD=/home/Kayn ; USER=root ; COMMAND=/bin/su
+Mai 16 08:12:09 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 16 08:12:09 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 16 08:12:09 app-1 su[4679]: Successful su for root by root
+Mai 16 08:12:09 app-1 su[4679]: + tty1 root:root
+Mai 16 08:12:09 app-1 su[4679]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 16 08:12:13 app-1 groupadd[4691]: new group: name=Nidalee, GID=1001
+Mai 16 08:12:13 app-1 useradd[4692]: new user: name=Nidalee, UID=1001, GID=1001, home=/home/Nidalee, shell=/bin/bash
+Mai 16 08:12:17 app-1 passwd[4695]: pam_unix(passwd:chauthtok): password changed for Nidalee
+Mai 16 08:12:22 app-1 chfn[4696]: changed user `Nidalee' information
+Mai 16 08:12:31 app-1 userdel[4700]: delete user `Nidalee' 
+Mai 16 08:12:31 app-1 userdel[4700]: removed group `Nidalee' owned by `Nidalee' 
+Mai 16 08:12:38 app-1 groupadd[4702]: new group: name=Jax, GID=1001
+Mai 16 08:12:38 app-1 useradd[4703]: new user: name=Jax, UID=1001, GID=1001, home=/home/Jax, shell=/bin/bash
+Mai 16 08:12:44 app-1 passwd[4706]: pam_unix(passwd:chauthtok): password changed for Jax
+Mai 16 08:12:46 app-1 chfn[4707]: changed user `Jax' information
+Mai 16 08:12:49 app-1 chfn[4708]: changed user `Jax' information
+Mai 16 08:12:55 app-1 groupadd[4710]: new group: name=Aphelios, GID=1002
+Mai 16 08:12:55 app-1 useradd[4711]: new user: name=Aphelios, UID=1002, GID=1002, home=/home/Aphelios, shell=/bin/bash
+Mai 16 08:13:00 app-1 passwd[4714]: pam_unix(passwd:chauthtok): password changed for Aphelios
+Mai 16 08:13:02 app-1 chfn[4715]: changed user `Aphelios' information
+Mai 16 08:17:01 app-1 CRON[4716]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 08:17:01 app-1 CRON[4716]: pam_unix(cron:session): session closed for user root
+Mai 16 08:25:22 app-1 useradd[4845]: new user: name=sshd, UID=104, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Mai 16 08:25:22 app-1 usermod[4846]: change user `sshd' password
+Mai 16 08:25:22 app-1 chage[4847]: changed password expiry for sshd
+Mai 16 08:25:22 app-1 sshd[4884]: Server listening on :: port 22.
+Mai 16 08:25:22 app-1 sshd[4884]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mai 16 08:26:06 app-1 sshd[4894]: Accepted password for Kayn from 193.169.127.2 port 61474 ssh2
+Mai 16 08:26:06 app-1 sshd[4896]: pam_unix(sshd:session): session opened for user Kayn by (uid=0)
+Mai 16 08:27:37 app-1 sudo:     Kayn : TTY=pts/0 ; PWD=/home/Kayn ; USER=root ; COMMAND=/bin/su
+Mai 16 08:27:37 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 16 08:27:37 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 16 08:27:37 app-1 su[4913]: Successful su for root by root
+Mai 16 08:27:37 app-1 su[4913]: + pts/0 root:root
+Mai 16 08:27:37 app-1 su[4913]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 16 09:17:01 app-1 CRON[5085]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 09:17:01 app-1 CRON[5085]: pam_unix(cron:session): session closed for user root
+Mai 16 10:14:02 app-1 sshd[5142]: Accepted password for Kayn from 193.169.127.2 port 62897 ssh2
+Mai 16 10:14:02 app-1 sshd[5144]: pam_unix(sshd:session): session opened for user Kayn by (uid=0)
+Mai 16 10:14:08 app-1 sudo:     Kayn : unable to resolve host dev-.domain.org
+Mai 16 10:14:10 app-1 sudo:     Kayn : TTY=pts/1 ; PWD=/home/Kayn ; USER=root ; COMMAND=/bin/su
+Mai 16 10:14:10 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 16 10:14:10 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 16 10:14:10 app-1 su[5162]: Successful su for root by root
+Mai 16 10:14:10 app-1 su[5162]: + pts/1 root:root
+Mai 16 10:14:10 app-1 su[5162]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 16 10:17:01 app-1 CRON[5184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 10:17:01 app-1 CRON[5184]: pam_unix(cron:session): session closed for user root
+Mai 16 10:39:54 app-1 su[4913]: pam_unix(su:session): session closed for user root
+Mai 16 10:39:55 app-1 sshd[4896]: pam_unix(sshd:session): session closed for user Kayn
+Mai 16 11:17:01 app-1 CRON[5234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 11:17:01 app-1 CRON[5234]: pam_unix(cron:session): session closed for user root
+Mai 16 12:17:01 app-1 CRON[5273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 12:17:01 app-1 CRON[5273]: pam_unix(cron:session): session closed for user root
+Mai 16 13:17:01 app-1 CRON[5322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 13:17:01 app-1 CRON[5322]: pam_unix(cron:session): session closed for user root
+Mai 16 14:17:01 app-1 CRON[5373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 14:17:01 app-1 CRON[5373]: pam_unix(cron:session): session closed for user root
+Mai 16 15:17:01 app-1 CRON[5435]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 15:17:01 app-1 CRON[5435]: pam_unix(cron:session): session closed for user root
+Mai 16 16:00:04 app-1 sshd[5144]: pam_unix(sshd:session): session closed for user Kayn
+Mai 16 16:00:04 app-1 su[5162]: pam_unix(su:session): session closed for user root
+Mai 16 16:17:01 app-1 CRON[5474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 16:17:01 app-1 CRON[5474]: pam_unix(cron:session): session closed for user root
+Mai 16 17:12:24 app-1 sshd[5513]: Accepted password for Kayn from 193.169.127.2 port 63555 ssh2
+Mai 16 17:12:24 app-1 sshd[5515]: pam_unix(sshd:session): session opened for user Kayn by (uid=0)
+Mai 16 17:12:38 app-1 sudo:     Kayn : unable to resolve host dev-.domain.org
+Mai 16 17:12:41 app-1 sudo:     Kayn : TTY=pts/0 ; PWD=/opt/software ; USER=root ; COMMAND=/bin/su
+Mai 16 17:12:41 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 16 17:12:41 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 16 17:12:41 app-1 su[5535]: Successful su for root by root
+Mai 16 17:12:41 app-1 su[5535]: + pts/0 root:root
+Mai 16 17:12:41 app-1 su[5535]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 16 17:13:51 app-1 su[5535]: pam_unix(su:session): session closed for user root
+Mai 16 17:13:52 app-1 sudo:     Kayn : TTY=pts/0 ; PWD=/opt/software ; USER=root ; COMMAND=/bin/su
+Mai 16 17:13:52 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 16 17:13:52 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 16 17:13:52 app-1 su[5551]: Successful su for root by root
+Mai 16 17:13:52 app-1 su[5551]: + pts/0 root:root
+Mai 16 17:13:52 app-1 su[5551]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 16 17:17:01 app-1 CRON[5571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mai 16 17:17:01 app-1 CRON[5571]: pam_unix(cron:session): session closed for user root
+Mai 16 17:32:58 app-1 su[4679]: pam_unix(su:session): session closed for user root
+Mai 18 09:41:44 app-1 sshd[4621]: Server listening on :: port 22.
+Mai 18 09:41:44 app-1 sshd[4621]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mai 18 09:41:54 app-1 login[4673]: pam_unix(login:auth): check pass; user unknown
+Mai 18 09:41:54 app-1 login[4673]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost= 
+Mai 18 09:41:56 app-1 login[4673]: FAILED LOGIN (1) on 'tty1' FOR `UNKNOWN', User not known to the underlying authentication module
+Mai 18 09:42:00 app-1 login[4673]: pam_unix(login:session): session opened for user Kayn by LOGIN(uid=0)
+Mai 18 09:42:22 app-1 sshd[4693]: Accepted password for Kayn from 10.1.2.3 port 64721 ssh2
+Mai 18 09:42:22 app-1 sshd[4695]: pam_unix(sshd:session): session opened for user Kayn by (uid=0)
+Mai 18 09:43:06 app-1 sudo:     Kayn : TTY=tty1 ; PWD=/home/Kayn ; USER=root ; COMMAND=/bin/su
+Mai 18 09:43:06 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 18 09:43:06 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 09:43:06 app-1 su[4713]: Successful su for root by root
+Mai 18 09:43:06 app-1 su[4713]: + tty1 root:root
+Mai 18 09:43:06 app-1 su[4713]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 18 09:43:07 app-1 su[4713]: pam_unix(su:session): session closed for user root
+Mai 18 09:48:55 app-1 sshd[4597]: Server listening on :: port 22.
+Mai 18 09:48:55 app-1 sshd[4597]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mai 18 09:49:00 app-1 login[4649]: pam_unix(login:session): session opened for user Kayn by LOGIN(uid=0)
+Mai 18 09:49:52 app-1 sudo:     Kayn : TTY=tty1 ; PWD=/opt/software ; USER=root ; COMMAND=/bin/su
+Mai 18 09:49:52 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 18 09:49:52 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 09:49:52 app-1 su[4673]: Successful su for root by root
+Mai 18 09:49:52 app-1 su[4673]: + tty1 root:root
+Mai 18 09:49:52 app-1 su[4673]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 18 09:49:53 app-1 su[4673]: pam_unix(su:session): session closed for user root
+Mai 18 09:50:23 app-1 sshd[4583]: Server listening on :: port 22.
+Mai 18 09:50:24 app-1 sshd[4583]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mai 18 09:50:41 app-1 login[4636]: pam_unix(login:session): session opened for user Kayn by LOGIN(uid=0)
+Mai 18 09:51:23 app-1 sudo:     Kayn : TTY=tty1 ; PWD=/home/Kayn ; USER=root ; COMMAND=/bin/su
+Mai 18 09:51:23 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 18 09:51:23 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 09:51:23 app-1 su[4654]: Successful su for root by root
+Mai 18 09:51:23 app-1 su[4654]: + tty1 root:root
+Mai 18 09:51:23 app-1 su[4654]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 18 09:54:25 app-1 sshd[4614]: Server listening on :: port 22.
+Mai 18 09:54:26 app-1 sshd[4614]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mai 18 09:54:53 app-1 login[4666]: pam_unix(login:session): session opened for user Kayn by LOGIN(uid=0)
+Mai 18 09:56:22 app-1 sudo:     Kayn : TTY=tty1 ; PWD=/home/Kayn ; USER=root ; COMMAND=/bin/su
+Mai 18 09:56:22 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 18 09:56:22 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 09:56:22 app-1 su[4684]: Successful su for root by root
+Mai 18 09:56:22 app-1 su[4684]: + tty1 root:root
+Mai 18 09:56:22 app-1 su[4684]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 18 09:56:52 app-1 sshd[4614]: Received SIGHUP; restarting.
+Mai 18 09:56:52 app-1 sshd[4754]: Server listening on :: port 22.
+Mai 18 09:56:52 app-1 sshd[4754]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mai 18 10:00:06 app-1 passwd[4763]: pam_unix(passwd:chauthtok): password changed for Jax
+Mai 18 10:00:10 app-1 sshd[4764]: Accepted password for Jax from 77.192.196.141 port 35226 ssh2
+Mai 18 10:00:10 app-1 sshd[4766]: pam_unix(sshd:session): session opened for user Jax by (uid=0)
+Mai 18 10:00:30 app-1 sshd[4786]: Accepted password for Kayn from 10.1.2.3 port 64950 ssh2
+Mai 18 10:00:30 app-1 sshd[4788]: pam_unix(sshd:session): session opened for user Kayn by (uid=0)
+Mai 18 10:00:36 app-1 sudo:     Kayn : TTY=pts/1 ; PWD=/home/Kayn ; USER=root ; COMMAND=/bin/su
+Mai 18 10:00:36 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 18 10:00:36 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:00:36 app-1 su[4805]: Successful su for root by root
+Mai 18 10:00:36 app-1 su[4805]: + pts/1 root:root
+Mai 18 10:00:36 app-1 su[4805]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 18 10:01:03 app-1 sudo:   Jax : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/Jax ; USER=root ; COMMAND=/bin/su -
+Mai 18 10:02:09 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/home/Jax ; USER=root ; COMMAND=/bin/su -
+Mai 18 10:02:09 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:02:09 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:02:09 app-1 su[4875]: Successful su for root by root
+Mai 18 10:02:09 app-1 su[4875]: + pts/0 root:root
+Mai 18 10:02:09 app-1 su[4875]: pam_unix(su:session): session opened for user root by Jax(uid=0)
+Mai 18 10:15:42 app-1 groupadd[5392]: new group: name=Debian-exim, GID=114
+Mai 18 10:15:42 app-1 useradd[5393]: new user: name=Debian-exim, UID=105, GID=114, home=/var/spool/exim4, shell=/bin/false
+Mai 18 10:15:43 app-1 chage[5394]: changed password expiry for Debian-exim
+Mai 18 10:17:01 app-1 chsh[6866]: changed user `www-data' shell to `/bin/bash'
+Mai 18 10:18:26 app-1 groupadd[6963]: new group: name=mysql, GID=115
+Mai 18 10:18:26 app-1 useradd[6966]: new user: name=mysql, UID=106, GID=115, home=/var/lib/mysql, shell=/bin/false
+Mai 18 10:18:26 app-1 chage[6967]: changed password expiry for mysql
+Mai 18 10:18:26 app-1 chfn[6968]: changed user `mysql' information
+Mai 18 10:32:44 app-1 su[4875]: pam_unix(su:session): session closed for user root
+Mai 18 10:32:49 app-1 su[4805]: pam_unix(su:session): session closed for user root
+Mai 18 10:34:55 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/django_settings.sh
+Mai 18 10:34:55 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:34:55 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:35:25 app-1 sudo:     Kayn : TTY=pts/1 ; PWD=/home/Kayn ; USER=root ; COMMAND=/bin/su
+Mai 18 10:35:25 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 18 10:35:25 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:35:25 app-1 su[8909]: Successful su for root by root
+Mai 18 10:35:25 app-1 su[8909]: + pts/1 root:root
+Mai 18 10:35:25 app-1 su[8909]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 18 10:36:00 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/bin/rm software.wsgi
+Mai 18 10:36:00 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:36:00 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:36:11 app-1 su[8921]: Successful su for root by root
+Mai 18 10:36:11 app-1 su[8921]: + pts/1 root:root
+Mai 18 10:36:11 app-1 su[8921]: pam_unix(su:session): session opened for user root by Kayn(uid=0)
+Mai 18 10:36:13 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/bin/ln -sf /opt/software/web/app/domain-dev.wsgi /opt/software/web/app/software.wsgi
+Mai 18 10:36:13 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:36:13 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:36:14 app-1 su[8921]: pam_unix(su:session): session closed for user root
+Mai 18 10:38:07 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi settingsdebug.py
+Mai 18 10:38:07 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:38:07 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:39:02 app-1 CRON[8950]: pam_unix(cron:session): session opened for user root by (uid=0)<78>Mai 18 10:39:02 /USR/SBIN/CRON[8951]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Mai 18 10:39:02 app-1 CRON[8950]: pam_unix(cron:session): session closed for user root
+Mai 18 10:41:09 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/svn commit -m settingsdebug should only change the necessary fields, not redefine entire LOGGING statement --user Nidalee
+Mai 18 10:41:09 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:41:09 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:41:13 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/svn commit -m settingsdebug should only change the necessary fields, not redefine entire LOGGING statement --username Nidalee
+Mai 18 10:41:13 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:41:13 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:43:36 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi settingsdebug.py
+Mai 18 10:43:36 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:43:36 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:44:09 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi settingsextra.py
+Mai 18 10:44:09 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:44:09 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:45:44 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /etc/hosts
+Mai 18 10:45:44 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:45:44 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:54:47 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi manage.py
+Mai 18 10:54:47 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:54:47 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:55:31 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/django_settings.sh
+Mai 18 10:55:31 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:55:31 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:56:12 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi settingsdebug.py
+Mai 18 10:56:12 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:56:12 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:56:51 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/django_settings.sh
+Mai 18 10:56:51 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:56:51 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:56:56 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/django_settings.sh
+Mai 18 10:56:56 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:56:56 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:59:49 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/django_settings.sh
+Mai 18 10:59:49 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:59:49 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 10:59:54 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/django_settings.sh
+Mai 18 10:59:54 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 10:59:54 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:01:35 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /opt/software/web/app/profile/fixtures/Nidalee.json
+Mai 18 11:01:35 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:01:35 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:01:49 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /opt/software/web/app/profile/fixtures/Kayn.json
+Mai 18 11:01:49 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:01:49 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:02:34 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/svn commit profile/ -m Customer fixtures dont have an owner now more.
+Mai 18 11:02:34 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:02:34 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:03:01 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /opt/software/web/app/profile/fixtures/Kayn.json
+Mai 18 11:03:01 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:03:01 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:04:52 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /home/Jax/.vimrc
+Mai 18 11:04:52 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:04:52 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:06:38 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/etc/init.d/apache2 start
+Mai 18 11:06:38 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:06:38 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:06:41 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/etc/init.d/apache2 restart
+Mai 18 11:06:41 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:06:41 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:09:01 app-1 CRON[9397]: pam_unix(cron:session): session opened for user root by (uid=0)<78>Mai 18 11:09:01 /USR/SBIN/CRON[9398]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Mai 18 11:09:01 app-1 CRON[9397]: pam_unix(cron:session): session closed for user root
+Mai 18 11:18:19 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail syslog
+Mai 18 11:18:19 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:18:19 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:20:00 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/vigr
+Mai 18 11:20:00 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:20:00 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:20:17 app-1 su[9504]: pam_unix(su:auth): authentication failure; logname=Jax uid=1001 euid=0 tty=pts/0 ruser=Jax rhost=  user=root
+Mai 18 11:20:19 app-1 su[9504]: pam_authenticate: Authentication failure
+Mai 18 11:20:19 app-1 su[9504]: FAILED su for root by Jax
+Mai 18 11:20:19 app-1 su[9504]: - pts/0 Jax:root
+Mai 18 11:20:24 app-1 su[9506]: pam_unix(su:auth): authentication failure; logname=Jax uid=1001 euid=0 tty=pts/0 ruser=Jax rhost=  user=root
+Mai 18 11:20:26 app-1 su[9506]: pam_authenticate: Authentication failure
+Mai 18 11:20:26 app-1 su[9506]: FAILED su for root by Jax
+Mai 18 11:20:26 app-1 su[9506]: - pts/0 Jax:root
+Mai 18 11:20:27 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/su -
+Mai 18 11:20:27 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:20:27 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:20:27 app-1 su[9507]: Successful su for root by root
+Mai 18 11:20:27 app-1 su[9507]: + pts/0 root:root
+Mai 18 11:20:27 app-1 su[9507]: pam_unix(su:session): session opened for user root by Jax(uid=0)
+Mai 18 11:20:57 app-1 su[9507]: pam_unix(su:session): session closed for user root
+Mai 18 11:21:02 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/su - Jax
+Mai 18 11:21:02 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:21:02 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:21:02 app-1 su[9515]: Successful su for Jax by root
+Mai 18 11:21:02 app-1 su[9515]: + pts/0 root:Jax
+Mai 18 11:21:02 app-1 su[9515]: pam_unix(su:session): session opened for user Jax by Jax(uid=0)
+Mai 18 11:23:07 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2/sites-enabled ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/apache_setup.sh
+Mai 18 11:23:07 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:23:07 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:23:26 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2/sites-enabled ; USER=root ; COMMAND=/bin/sed -i -e s/domain.com/$DOMAIN/g /etc/apache2/sites-available/www
+Mai 18 11:23:26 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:23:26 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:23:40 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2/sites-enabled ; USER=root ; COMMAND=/bin/sed -i -e s/domain.com/$DOMAIN/g /etc/apache2/sites-available/www
+Mai 18 11:23:40 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:23:40 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:23:43 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2/sites-enabled ; USER=root ; COMMAND=/bin/sed -i -e s/domain.com/$DOMAIN/g /etc/apache2/sites-available/app-server
+Mai 18 11:23:43 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:23:43 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:23:56 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2/sites-enabled ; USER=root ; COMMAND=/etc/init.d/apache2 restart
+Mai 18 11:23:56 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:23:56 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:24:43 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2/sites-enabled ; USER=root ; COMMAND=/usr/bin/vi /etc/apache2/sites-enabled/001-www
+Mai 18 11:24:43 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:24:43 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:24:52 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2/sites-enabled ; USER=root ; COMMAND=/usr/bin/vi /etc/apache2/sites-enabled/002-app-server
+Mai 18 11:24:52 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:24:52 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:25:08 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2/sites-enabled ; USER=root ; COMMAND=/etc/init.d/apache2 restart
+Mai 18 11:25:08 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:25:08 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:26:22 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/apt-get install openssl
+Mai 18 11:26:22 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:26:22 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:26:32 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/openssl genrsa -des3 -out domain.org.key 2048
+Mai 18 11:26:32 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:26:32 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:27:11 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/openssl req -new -key logggly.org.key -out logggly.org.csr
+Mai 18 11:27:11 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:27:11 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:27:19 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/openssl req -new -key domain.org.key -out logggly.org.csr
+Mai 18 11:27:19 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:27:19 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:28:10 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/cp domain.org.key domain.org.key.org
+Mai 18 11:28:10 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:28:10 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:28:28 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/sudo cp domain.org.key domain.org.key.org
+Mai 18 11:28:28 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:28:28 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:28:28 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/cp domain.org.key domain.org.key.org
+Mai 18 11:28:28 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:28:28 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:28:49 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/openssl x509 -req -days 365 -in domain.org.csr -signkey domain.org.key -out domain.org.crt
+Mai 18 11:28:49 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:28:49 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:29:09 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/mv logggly.org.csr domain.org.csr
+Mai 18 11:29:09 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:29:09 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:29:12 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/openssl x509 -req -days 365 -in domain.org.csr -signkey domain.org.key -out domain.org.crt
+Mai 18 11:29:12 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:29:12 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:30:54 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/openssl rsa -in domain.org.key.org -out domain.org.key
+Mai 18 11:30:54 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:30:54 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:31:36 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/openssl x509 -req -days 1365 -in domain.org.csr -signkey domain.org.key -out domain.org.crt
+Mai 18 11:31:36 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:31:36 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:32:02 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/etc/init.d/apache2 restart
+Mai 18 11:32:02 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:32:02 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:33:00 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/apt-cache search paramiko
+Mai 18 11:33:00 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:33:00 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:33:27 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/django_checkout.sh
+Mai 18 11:33:27 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:33:27 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:33:51 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/base_setup.sh
+Mai 18 11:33:51 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:33:51 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:34:08 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/apt-get install python-mysqldb python-httplib2 python-paramiko -y
+Mai 18 11:34:08 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:34:08 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:34:47 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/rm domain.org.key.org
+Mai 18 11:34:47 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:34:47 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:35:10 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/config ; USER=root ; COMMAND=/bin/cp /etc/apache2/domain.org.crt /etc/apache2/domain.org.csr /etc/apache2/domain.org.key .
+Mai 18 11:35:10 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:35:10 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:35:14 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/config ; USER=root ; COMMAND=/usr/bin/svn add domain.org.crt domain.org.csr domain.org.key
+Mai 18 11:35:14 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:35:14 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:35:34 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/config ; USER=root ; COMMAND=/usr/bin/svn commit domain.org.crt domain.org.csr domain.org.key -m Adding domain.org self-signed certs and key
+Mai 18 11:35:34 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:35:34 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:35:50 app-1 sudo:   Jax : TTY=pts/0 ; PWD=/opt/software/web/config ; USER=root ; COMMAND=/usr/bin/vi /opt/software/base/vmscripts/app/apache_setup.sh
+Mai 18 11:35:50 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:35:50 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:38:04 app-1 sshd[10156]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=adsl-72-133-130-213.dsl.adsl.com  user=Aphelios
+Mai 18 11:38:05 app-1 sshd[10156]: Failed password for Aphelios from 72.133.130.213 port 34624 ssh2
+Mai 18 11:38:10 app-1 sshd[10156]: Failed password for Aphelios from 72.133.130.213 port 34624 ssh2
+Mai 18 11:38:43 app-1 sshd[10156]: Failed password for Aphelios from 72.133.130.213 port 34624 ssh2
+Mai 18 11:38:43 app-1 sshd[10156]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=adsl-72-133-130-213.dsl.adsl.com  user=Aphelios
+Mai 18 11:38:57 app-1 sshd[10158]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=adsl-72-133-130-213.dsl.adsl.com  user=Aphelios
+Mai 18 11:38:59 app-1 sshd[10158]: Failed password for Aphelios from 72.133.130.213 port 34333 ssh2
+Mai 18 11:39:01 app-1 CRON[10160]: pam_unix(cron:session): session opened for user root by (uid=0)<78>Mai 18 11:39:01 /USR/SBIN/CRON[10161]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Mai 18 11:39:01 app-1 CRON[10160]: pam_unix(cron:session): session closed for user root
+Mai 18 11:39:40 app-1 passwd[10178]: pam_unix(passwd:chauthtok): password changed for Aphelios
+Mai 18 11:39:50 app-1 sshd[10158]: Accepted password for Aphelios from 72.133.130.213 port 34333 ssh2
+Mai 18 11:39:50 app-1 sshd[10179]: pam_unix(sshd:session): session opened for user Aphelios by (uid=0)
+Mai 18 11:40:29 app-1 sshd[10179]: pam_unix(sshd:session): session closed for user Aphelios
+Mai 18 11:40:56 app-1 sshd[10200]: Accepted password for Aphelios from 72.133.130.213 port 40961 ssh2
+Mai 18 11:40:56 app-1 sshd[10202]: pam_unix(sshd:session): session opened for user Aphelios by (uid=0)
+Mai 18 11:41:38 app-1 sshd[10202]: pam_unix(sshd:session): session closed for user Aphelios
+Mai 18 11:41:43 app-1 sshd[10224]: Accepted password for Aphelios from 72.133.130.213 port 41661 ssh2
+Mai 18 11:41:43 app-1 sshd[10226]: pam_unix(sshd:session): session opened for user Aphelios by (uid=0)
+Mai 18 11:48:16 app-1 sshd[10253]: Accepted password for Jax from 77.192.196.141 port 43613 ssh2
+Mai 18 11:48:16 app-1 sshd[10255]: pam_unix(sshd:session): session opened for user Jax by (uid=0)
+Mai 18 11:50:01 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app/profile/fixtures ; USER=root ; COMMAND=/usr/bin/vi users.json
+Mai 18 11:50:01 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 11:50:01 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 11:51:31 app-1 sshd[10294]: Accepted password for Aphelios from 72.133.130.213 port 41296 ssh2
+Mai 18 11:51:31 app-1 sshd[10296]: pam_unix(sshd:session): session opened for user Aphelios by (uid=0)
+Mai 18 11:59:43 app-1 sshd[10333]: Accepted password for Kayn from 10.1.2.3 port 49873 ssh2
+Mai 18 11:59:43 app-1 sshd[10335]: pam_unix(sshd:session): session opened for user Kayn by (uid=0)
+Mai 18 11:59:43 app-1 sshd[10335]: pam_unix(sshd:session): session closed for user Kayn
+Mai 18 12:00:17 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app/customer/fixtures ; USER=root ; COMMAND=/usr/bin/vi initial_data.json
+Mai 18 12:00:17 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 12:00:17 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 12:02:15 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/svn add profile/fixtures/users.json
+Mai 18 12:02:15 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 12:02:15 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 12:09:01 app-1 CRON[10425]: pam_unix(cron:session): session opened for user root by (uid=0)<78>Mai 18 12:09:01 /USR/SBIN/CRON[10426]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Mai 18 12:09:01 app-1 CRON[10425]: pam_unix(cron:session): session closed for user root
+Mai 18 12:15:20 app-1 sudo:     Kayn : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mai 18 12:15:20 app-1 sudo: pam_unix(sudo:session): session opened for user root by Kayn(uid=0)
+Mai 18 12:15:20 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 12:16:47 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi profile/fixtures/initial_data.json
+Mai 18 12:16:47 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 12:16:47 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 12:39:01 app-1 CRON[10738]: pam_unix(cron:session): session opened for user root by (uid=0)<78>Mai 18 12:39:01 /USR/SBIN/CRON[10739]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Mai 18 12:39:01 app-1 CRON[10738]: pam_unix(cron:session): session closed for user root
+Mai 18 13:09:01 app-1 CRON[10749]: pam_unix(cron:session): session opened for user root by (uid=0)<78>Mai 18 13:09:01 /USR/SBIN/CRON[10750]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Mai 18 13:09:01 app-1 CRON[10749]: pam_unix(cron:session): session closed for user root
+Mai 18 13:39:01 app-1 CRON[10761]: pam_unix(cron:session): session opened for user root by (uid=0)<78>Mai 18 13:39:01 /USR/SBIN/CRON[10762]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Mai 18 13:39:01 app-1 CRON[10761]: pam_unix(cron:session): session closed for user root
+Mai 18 13:57:46 app-1 sshd[4766]: pam_unix(sshd:session): session closed for user Jax
+Mai 18 13:57:46 app-1 su[9515]: pam_unix(su:session): session closed for user Jax
+Mai 18 14:09:01 app-1 CRON[10774]: pam_unix(cron:session): session opened for user root by (uid=0)<78>Mai 18 14:09:01 /USR/SBIN/CRON[10775]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Mai 18 14:09:01 app-1 CRON[10774]: pam_unix(cron:session): session closed for user root
+Mai 18 14:10:49 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app/profile/fixtures ; USER=root ; COMMAND=/bin/cp users.json domain.json
+Mai 18 14:10:49 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:10:49 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:10:56 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app/profile/fixtures ; USER=root ; COMMAND=/usr/bin/svn delete
+Mai 18 14:10:56 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:10:56 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:10:59 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app/profile/fixtures ; USER=root ; COMMAND=/usr/bin/svn delete users.json
+Mai 18 14:10:59 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:10:59 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:11:05 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app/profile/fixtures ; USER=root ; COMMAND=/usr/bin/svn revert users.json
+Mai 18 14:11:05 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:11:05 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:11:14 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app/profile/fixtures ; USER=root ; COMMAND=/bin/rm users.json
+Mai 18 14:11:14 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:11:14 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:11:17 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app/profile/fixtures ; USER=root ; COMMAND=/usr/bin/svn add domain.json
+Mai 18 14:11:17 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:11:17 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:12:39 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi customer/fixtures/initial_data.json
+Mai 18 14:12:39 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:12:39 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:14:09 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/etc/init.d/apache2 start
+Mai 18 14:14:09 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:14:09 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:14:13 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/etc/init.d/apache2 stop
+Mai 18 14:14:13 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:14:13 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:14:15 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/etc/init.d/apache2 start
+Mai 18 14:14:15 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:14:15 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:15:17 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi /etc/hosts
+Mai 18 14:15:17 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:15:17 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:16:21 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi input/models.py
+Mai 18 14:16:21 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:16:21 app-1 sudo: pam_unix(sudo:session): session closed for user root
+Mai 18 14:28:39 app-1 sudo:   Jax : TTY=pts/3 ; PWD=/opt/software/web/app ; USER=root ; COMMAND=/usr/bin/vi profile/fixtures/domain.json
+Mai 18 14:28:39 app-1 sudo: pam_unix(sudo:session): session opened for user root by Jax(uid=0)
+Mai 18 14:28:39 app-1 sudo: pam_unix(sudo:session): session closed for user root
