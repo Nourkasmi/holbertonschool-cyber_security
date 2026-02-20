@@ -39,6 +39,7 @@ elsif options[:list]
   tasks = File.readlines(TASK_FILE, chomp: true)
 
   puts "Tasks:"
+  puts
   tasks.each do |task|
     puts task
   end
