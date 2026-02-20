@@ -19,7 +19,12 @@ def post_request(url, body_params = {})
 
   begin
     json_body = JSON.parse(response.body)
-    puts JSON.pretty_generate(json_body)
+
+    if json_body.empty?
+      puts "{}"
+    else
+      puts JSON.pretty_generate(json_body)
+    end
   rescue JSON::ParserError
     puts response.body
   end
