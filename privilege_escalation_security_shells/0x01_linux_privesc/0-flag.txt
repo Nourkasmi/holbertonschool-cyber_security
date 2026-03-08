@@ -1,1 +1,1 @@
-cat /root/flag.txt
+579eea17d42c385d4be6a0750c6b5562
